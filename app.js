@@ -51,24 +51,24 @@ function showWeatherData (data){
 
     currentWeatherItemsEl.innerHTML = 
     `<div class="weather-item">
-        <div>Humidity</div>
-        <div>${humidity}%</div>
+        <div>Humidity =  ${humidity}</div>
+        <div></div>
     </div>
     <div class="weather-item">
-        <div>Pressure</div>
-        <div>${pressure}</div>
+        <div>Pressure = ${pressure} </div>
+        <div></div>
     </div>
     <div class="weather-item">
-        <div>Wind Speed</div>
-        <div>${wind_speed}</div>
+        <div>Wind Speed = ${wind_speed}</div>
+        <div></div>
     </div>
     <div class="weather-item">
-        <div>Sunrise</div>
-        <div>${window.moment(sunrise * 1000).format('HH:mm a')}</div>
+        <div>Sunrise = ${window.moment(sunrise * 1000).format('HH:mm a')}</div>
+        <div></div>
     </div>
     <div class="weather-item">
-        <div>Sunset</div>
-        <div>${window.moment(sunset*1000).format('HH:mm a')}</div>
+        <div>Sunset = ${window.moment(sunset*1000).format('HH:mm a')}</div>
+        <div></div>
     </div>
     
     `;
